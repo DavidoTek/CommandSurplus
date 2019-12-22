@@ -1,0 +1,8 @@
+commands:
+  plugins:
+    disabled: true
+    permission: perms.plugins
+  somecommand:
+    disabled: true
+    permission: permission.to.use.cmd
+    message: "&cNo permissions!"
