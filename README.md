@@ -4,8 +4,16 @@ Commands can be completely disabled or use-permissions can be set.
 If a command is disabled or the player doesn't have the needed permissions a message can be displayed.
 
 ## Commands
-NONE  
-Commands can be disabled in config
+Command|Explaination
+-------|------------
+/commandsurplus list | List commands
+/commandsurplus enable <command> | Enable command
+/commandsurplus disable <command> | Disable command
+/commandsurplus info <command> | Show command info (disabled etc.)
+/commandsurplus message <command> <message> | Change command message
+/commandsurplus permission <command> <permission> | Change command permission
+
+Commands from other plugins/spigot can be disabled in config/using ingame commands.
 
 ## Configuration
 ```yaml
