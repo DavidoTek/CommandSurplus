@@ -15,6 +15,8 @@ public class CommandSurplus extends JavaPlugin {
     public void onEnable() {
         loadConfiguration();
         getServer().getPluginManager().registerEvents(new CommandHandler(disabledCommands, config), this);
+
+        this.getCommand("commandsurplus").setExecutor(new CommandCommandSurplus(config, this));
     }
 
     @Override

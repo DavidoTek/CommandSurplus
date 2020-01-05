@@ -2,3 +2,7 @@ name: CommandSurplus
 version: 1.0
 author: DavidoTek
 main: net.davidotek.CommandSurplus.CommandSurplus
+commands:
+  commandsurplus:
+    description: CommandSurplus main command
+    usage: /commandsurplus <action> <command> [<value>]
